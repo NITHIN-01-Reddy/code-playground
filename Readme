@@ -1,0 +1,128 @@
+# 🚀 Code Playground (HTML, CSS, JavaScript)
+
+A **modern in-browser code playground** that lets users write and execute **HTML, CSS, and JavaScript** in real time with live preview, templates, console output, export, and share functionality — built using **pure vanilla web technologies**.
+
+This project is ideal for **frontend practice**, **college mini-projects**, and **internship-ready portfolios**.
+
+---
+
+## ✨ Features
+
+* 🧩 Separate editors for **HTML**, **CSS**, and **JavaScript**
+* ⚡ Live preview using sandboxed iframe (`srcdoc`)
+* 🖥️ Built-in **console output panel** (log, warn, error)
+* 🧠 Auto-run code on typing (debounced)
+* 📦 Pre-built templates:
+
+  * Blank Starter
+  * Gradient Card
+  * Particle Effect (Canvas)
+  * Todo App
+* 🔗 Share playground via encoded URL
+* ⬇️ Export code as a single HTML file
+* 🎨 Clean, modern dark UI
+* 🔒 Secure execution using iframe sandboxing
+
+---
+
+## 🛠️ Tech Stack
+
+* **HTML5** – Application structure
+* **CSS3** – Responsive UI & theming
+* **JavaScript (ES6)** – Editor logic, preview rendering, templates, console capture
+
+*No frameworks. No libraries. 100% Vanilla JS.*
+
+---
+
+## 📁 Project Structure
+
+```
+code-playground/
+│
+├── index.html      # Main UI layout
+├── styles.css      # Styling and layout
+├── script.js       # Core logic (editors, preview, templates)
+└── README.md       # Documentation
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User writes code in the HTML, CSS, or JavaScript editor
+2. Code is injected into a **sandboxed iframe** using `srcdoc`
+3. JavaScript execution is wrapped to:
+
+   * Capture `console.log`, `console.warn`, `console.error`
+   * Send logs to parent window using `postMessage`
+4. Output and logs update instantly without reloading the page
+
+---
+
+## ▶️ Run Locally
+
+No installation required.
+
+1. Download or clone the repository
+2. Open `index.html` in any modern browser
+3. Start coding 🚀
+
+---
+
+## 🔗 Share Feature
+
+* Clicking **Share** generates a URL with encoded HTML/CSS/JS
+* Anyone opening the link sees the same code loaded automatically
+
+---
+
+## ⬇️ Export Feature
+
+* Clicking **Export** downloads a standalone `.html` file
+* The file contains your HTML, CSS, and JS bundled together
+
+---
+
+## 📌 Use Cases
+
+* Frontend practice (HTML/CSS/JS)
+* Teaching & demos
+* College mini / UI project
+* Internship & portfolio project
+* Understanding iframe sandboxing & DOM isolation
+
+---
+
+## 🚧 Limitations
+
+* No backend support
+* No authentication
+* No persistent storage (localStorage can be added)
+
+---
+
+## 🌱 Future Enhancements
+
+* 💾 Save projects using LocalStorage
+* 🌙 Dark / Light mode toggle
+* 🧠 AI-powered code suggestions
+* 📤 Share using short links
+* 🗂️ Multiple file support
+
+---
+
+## 👨‍💻 Author
+
+**Nithin Reddy**
+Frontend & AI Automation Enthusiast
+
+---
+
+## 📜 License
+
+Open-source project for learning and educational purposes.
+
+---
+
+✨ Happy Coding!
